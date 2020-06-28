@@ -42,7 +42,7 @@ public class CarParking implements PerformFunctionalities {
 					entry.getValue().setStatus(status);
 					System.out.println("Registration number " + regNo + " with Slot Number " + entry.getKey()
 					+ " is free with Charge " + temp);
-					invalidRegNo = false;;
+					invalidRegNo = false;
 				}
 			}
 				if(invalidRegNo)
