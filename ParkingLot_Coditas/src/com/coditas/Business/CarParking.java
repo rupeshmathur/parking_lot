@@ -41,7 +41,7 @@ public class CarParking implements PerformFunctionalities {
 					entry.getValue().setParkedHours(temp);
 					entry.getValue().setStatus(status);
 					System.out.println("Registration number " + regNo + " with Slot Number " + entry.getKey()
-					+ " is free with Charge " + temp);
+					+ " is free with Charge " + entry.getValue().getParkedHours());
 					invalidRegNo = false;
 				}
 			}
