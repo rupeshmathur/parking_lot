@@ -24,3 +24,223 @@
   <message>AllocateParkingSlotExecuting readInputCommands method </message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514354</millis>
+  <sequence>0</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514404</millis>
+  <sequence>1</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>AllocateParkingSlotExecuting readInputCommands method </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514503</millis>
+  <sequence>2</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514504</millis>
+  <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514507</millis>
+  <sequence>4</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514509</millis>
+  <sequence>5</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514510</millis>
+  <sequence>6</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514512</millis>
+  <sequence>7</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514515</millis>
+  <sequence>8</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514517</millis>
+  <sequence>9</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514519</millis>
+  <sequence>10</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514520</millis>
+  <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:01:54</date>
+  <millis>1593365514522</millis>
+  <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-28T23:02:39</date>
+  <millis>1593365559346</millis>
+  <sequence>0</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
+</record>
+<record>
+  <date>2020-06-28T23:02:41</date>
+  <millis>1593365561952</millis>
+  <sequence>1</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>AllocateParkingSlotExecuting readInputCommands method </message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-28T23:04:18</date>
+  <millis>1593365658793</millis>
+  <sequence>0</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
+</record>
+<record>
+  <date>2020-06-28T23:04:18</date>
+  <millis>1593365658845</millis>
+  <sequence>1</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>AllocateParkingSlotExecuting readInputCommands method </message>
+</record>
+<record>
+  <date>2020-06-28T23:04:18</date>
+  <millis>1593365658948</millis>
+  <sequence>2</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:04:18</date>
+  <millis>1593365658951</millis>
+  <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+</log>

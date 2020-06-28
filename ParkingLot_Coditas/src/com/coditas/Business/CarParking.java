@@ -13,6 +13,7 @@ import com.coditas.infra.PerformFunctionalities;
 
 public class CarParking implements PerformFunctionalities {
 
+	static String CURRENT_CLASS_NAME = "CarParking";
 	/*@Override
 	public void parkVehicle() {
 		// TODO Auto-generated method stub
@@ -85,11 +86,11 @@ public class CarParking implements PerformFunctionalities {
 
 	@Override
 	public void updateSlotStatus(Map<Integer, ParkingStatus> availableSlots, Integer slotNo, String status,
-			String vehicleRegNo) {
+			String vehicleRegNo,String carColor) {
 		if (availableSlots.containsKey(slotNo)) {
 			ParkingStatus pb = availableSlots.get(slotNo);
 			pb.setStatus(status);
-			pb.setVehicalSpecsDTO(new VehicalSpecsDTO("", vehicleRegNo, ""));
+			pb.setVehicalSpecsDTO(new VehicalSpecsDTO(carColor, vehicleRegNo));
 			System.out.println("Allocated slot number: " + slotNo);
 			availableSlots.put(slotNo, pb);
 

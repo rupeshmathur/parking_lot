@@ -18,5 +18,5 @@ public interface PerformFunctionalities {
 
 	public List<Integer> checkSlotStatus(Map<Integer, ParkingStatus> availableSlots);
 
-	public void updateSlotStatus(Map<Integer, ParkingStatus> availableSlots, Integer slotNo,String status,String vehicleRegNo);
+	public void updateSlotStatus(Map<Integer, ParkingStatus> availableSlots, Integer slotNo,String status,String vehicleRegNo,String carColor);
 }

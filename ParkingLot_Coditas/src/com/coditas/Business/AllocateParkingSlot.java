@@ -36,10 +36,8 @@ public class AllocateParkingSlot {
 				System.out.println("No input file received");
 			}
 		} catch (SecurityException e) {
-			// TODO Auto-generated catch block
 			logger.severe("SecurityException " + e.getMessage());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			logger.severe("IOException " + e.getMessage());
 		}
 
@@ -58,34 +56,35 @@ public class AllocateParkingSlot {
 					new CarParking().printSlotStatus(slotsStatus);
 
 				}
-				if (arr.length == 2) {
-
-					if (arr[0].equals(ParkingLotConstants.CREATE)) {
-
-						new CarParking().createSlots(slotsStatus, Integer.parseInt(arr[1]));
-					} else if (arr[0].equals(ParkingLotConstants.PARK)) {
-
-						// checkStatusOfSlots
-						// Add new Key value to the map with Slot No as key and
-						// value as DTO obj
-						// Mark Not Available in slotStatus map
-
-						OptionalInt opt = new CarParking().checkSlotStatus(slotsStatus).stream().mapToInt(ip -> ip)
-								.min();
-						if (opt.isPresent() && slotsStatus.containsKey(opt.getAsInt())) {
-
-							int slotNo = opt.getAsInt();
-							String vehicleRegNo = arr[1];
-							new CarParking().updateSlotStatus(slotsStatus, slotNo, ParkingLotConstants.NOT_AVAILABE,
-									vehicleRegNo);
-
-						} else {
-							System.out.println("Sorry, parking lot is full ");
+				
+				if(arr.length == 2 && arr[0].equals(ParkingLotConstants.CREATE))
+						{
+					new CarParking().createSlots(slotsStatus, Integer.parseInt(arr[1]));
 						}
+				
+				if (arr.length == 3 && arr[0].equals(ParkingLotConstants.PARK)) {
 
+					// checkStatusOfSlots
+					// Add new Key value to the map with Slot No as key and
+					// value as DTO obj
+					// Mark Not Available in slotStatus map
+
+					OptionalInt opt = new CarParking().checkSlotStatus(slotsStatus).stream().mapToInt(ip -> ip).min();
+					if (opt.isPresent() && slotsStatus.containsKey(opt.getAsInt())) {
+
+						int slotNo = opt.getAsInt();
+						String vehicleRegNo = arr[1];
+						new CarParking().updateSlotStatus(slotsStatus, slotNo, ParkingLotConstants.NOT_AVAILABE,
+								vehicleRegNo, arr[2]);
+
+					} else {
+						logger.severe("Sorry, parking lot is full ");
+						System.out.println("Sorry, parking lot is full ");
 					}
 
 				}
+
+				
 				if (arr.length == 3 && arr[0].equals(ParkingLotConstants.LEAVE)) {
 
 					new CarParking().vacantSlot(slotsStatus, arr[1], ParkingLotConstants.AVAILABE,
