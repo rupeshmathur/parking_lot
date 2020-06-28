@@ -21,7 +21,7 @@ public class CarParking implements PerformFunctionalities {
 	 * @see com.coditas.infra.PerformFunctionalities#vacantSlot(java.util.Map, java.lang.String, java.lang.String, double)
 	 */
 	@Override
-	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots, String regNo, String status,double hours)  {
+	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots, String vehicleRegNo, String status,double hours)  {
 		AllocateParkingSlot.logger.info(CURRENT_CLASS_NAME + "Executing vacantSlot method" );
 		Iterator<Map.Entry<Integer, ParkingStatus>> iterator = availableSlots.entrySet().iterator();
 		double temp = 0.0;
@@ -29,7 +29,7 @@ public class CarParking implements PerformFunctionalities {
 		try {
 			while (iterator.hasNext()) {
 				Map.Entry<Integer, ParkingStatus> entry = iterator.next();
-				if (regNo.equalsIgnoreCase(entry.getValue().getVehicalSpecsDTO().getVehicalRegNo())) {
+				if (vehicleRegNo.equalsIgnoreCase(entry.getValue().getVehicalSpecsDTO().getVehicalRegNo())) {
 					if(hours>ParkingLotConstants.MIN_HOURS_FOR_BASE_FARE)
 					{
 						temp = (hours-ParkingLotConstants.MIN_HOURS_FOR_BASE_FARE)*ParkingLotConstants.BASE_FARE + ParkingLotConstants.BASE_FARE;
@@ -40,19 +40,19 @@ public class CarParking implements PerformFunctionalities {
 					}
 					entry.getValue().setParkedHours(temp);
 					entry.getValue().setStatus(status);
-					System.out.println("Registration number " + regNo + " with Slot Number " + entry.getKey()
+					System.out.println("Registration number " + vehicleRegNo + " with Slot Number " + entry.getKey()
 					+ " is free with Charge " + entry.getValue().getParkedHours());
 					invalidRegNo = false;
 				}
 			}
 				if(invalidRegNo)
 				{
-					throw new InvalidCarUnparkException("Invalid Car Registration number provided !!! " + regNo);
+					throw new InvalidCarUnparkException("Invalid Car Registration number provided !!! " + vehicleRegNo);
 				}
 		}
 		catch (InvalidCarUnparkException e) {
 			AllocateParkingSlot.logger.warning(CURRENT_CLASS_NAME + "Executing vacantSlot method" + e.getMessage());
-			System.out.println("Registration number " + regNo  +" not found");
+			System.out.println("Registration number " + vehicleRegNo  +" not found");
 		}
 	}
 
