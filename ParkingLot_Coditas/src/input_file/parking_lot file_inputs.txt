@@ -1,0 +1,18 @@
+create_parking_lot 6
+park KA-01-HH-1234 red
+park KA-01-HH-9999 white
+park KA-01-BB-0001 black
+park KA-01-HH-7777 grey
+park KA-01-HH-2701 blue
+park KA-01-HH-3141 orange
+leave KA-01-HH-3141 4
+status
+park KA-01-P-333 white
+park DL-12-AA-9999 green
+leave KA-01-HH-1234 4
+leave KA-01-BB-0001 6
+leave DL-12-AA-9999 2
+park KA-09-HH-0987 yellow
+park CA-09-IO-1111 silver
+park KA-09-HH-0123 brown
+status
