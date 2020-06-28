@@ -20,25 +20,29 @@ public class AllocateParkingSlot {
 	static Logger logger = null;
 	static FileHandler handler = null;
 	static String CURRENT_CLASS_NAME = "AllocateParkingSlot";
-	
+
 	public static void main(String[] args) {
 
 		try {
-			handler = new FileHandler("C:/Users/user/git/parking_lot/ParkingLot_Coditas/src/log_files/ParkingLotLogs.txt", true);
+			handler = new FileHandler(
+					"C:/Users/user/git/parking_lot/ParkingLot_Coditas/src/log_files/ParkingLotLogs.txt", true);
 			logger = Logger.getLogger(CURRENT_CLASS_NAME.getClass().getName());
 			logger.addHandler(handler);
 			if (args.length > 0) {
-				
+
 				File file = new File(args[0]);
-				logger.info("STARTING EXECUTION OF :: " + CURRENT_CLASS_NAME );
+				logger.info("STARTING EXECUTION OF :: " + CURRENT_CLASS_NAME);
 				readInputCommands(file);
 			} else {
-				logger.severe("NO INPUT FILE RECEIVED AS COMMAND LINE ARGS" + args[0] );
+				logger.severe("NO INPUT FILE RECEIVED AS COMMAND LINE ARGS" + args[0]);
 				System.out.println("No input file received");
 			}
 		} catch (SecurityException e) {
 			logger.severe("SecurityException " + e.getMessage());
 		} catch (IOException e) {
+			logger.severe("IOException " + e.getMessage());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
 			logger.severe("IOException " + e.getMessage());
 		}
 
@@ -47,9 +51,9 @@ public class AllocateParkingSlot {
 	/*
 	 * Reads the input file and processes as per commands given
 	 */
-	public static void readInputCommands(File file) throws IOException {
+	public static void readInputCommands(File file) throws Exception {
 
-		logger.info(CURRENT_CLASS_NAME + "Executing readInputCommands method " );
+		logger.info(CURRENT_CLASS_NAME + "Executing readInputCommands method ");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 
 			String line = null;
@@ -60,12 +64,11 @@ public class AllocateParkingSlot {
 					new CarParking().printSlotStatus(slotsStatus);
 
 				}
-				
-				if(commandArgs.length == 2 && commandArgs[0].equals(ParkingLotConstants.CREATE))
-						{
+
+				if (commandArgs.length == 2 && commandArgs[0].equals(ParkingLotConstants.CREATE)) {
 					new CarParking().createSlots(slotsStatus, Integer.parseInt(commandArgs[1]));
-						}
-				
+				}
+
 				if (commandArgs.length == 3 && commandArgs[0].equals(ParkingLotConstants.PARK)) {
 					OptionalInt opt = new CarParking().checkSlotStatus(slotsStatus).stream().mapToInt(ip -> ip).min();
 					if (opt.isPresent() && slotsStatus.containsKey(opt.getAsInt())) {
@@ -82,7 +85,6 @@ public class AllocateParkingSlot {
 
 				}
 
-				
 				if (commandArgs.length == 3 && commandArgs[0].equals(ParkingLotConstants.LEAVE)) {
 
 					new CarParking().vacantSlot(slotsStatus, commandArgs[1], ParkingLotConstants.AVAILABE,
@@ -93,10 +95,16 @@ public class AllocateParkingSlot {
 			}
 
 		} catch (FileNotFoundException e) {
-			logger.severe("FileNotFoundException " + e.getMessage());
+
 			throw e;
 		} catch (IOException e) {
-			logger.severe("IOException " + e.getMessage());
+
+			throw e;
+		} catch (NumberFormatException e) {
+
+			throw e;
+		} catch (Exception e) {
+
 			throw e;
 		}
 

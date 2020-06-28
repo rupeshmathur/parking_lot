@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.coditas.POJO.ParkingStatus;
+import com.coditas.customExceptions.InvalidCarUnparkException;
 
 public interface PerformFunctionalities {
 
@@ -12,7 +13,7 @@ public interface PerformFunctionalities {
 
 //	public void parkVehicle();
 
-	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots,String regNo,String status,double hours);
+	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots,String regNo,String status,double hours) throws InvalidCarUnparkException;
 
 	public void printSlotStatus(Map<Integer, ParkingStatus> availableSlots);
 

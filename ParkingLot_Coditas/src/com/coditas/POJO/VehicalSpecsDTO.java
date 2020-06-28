@@ -2,10 +2,8 @@ package com.coditas.POJO;
 
 public class VehicalSpecsDTO {
 
-	
 	private String vehicalColor;
 	private String vehicalRegNo;
-	
 
 	public VehicalSpecsDTO() {
 		super();
@@ -16,7 +14,7 @@ public class VehicalSpecsDTO {
 		super();
 		this.vehicalColor = vehicalColor;
 		this.vehicalRegNo = vehicalRegNo;
-		
+
 	}
 
 	public String getVehicalColor() {

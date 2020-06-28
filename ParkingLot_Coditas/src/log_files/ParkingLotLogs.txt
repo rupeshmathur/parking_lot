@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="windows-1252" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
-<record>
-  <date>2020-06-28T22:55:44</date>
-  <millis>1593365144032</millis>
-  <sequence>0</sequence>
-  <logger>java.lang.String</logger>
-  <level>INFO</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>main</method>
-  <thread>1</thread>
-  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
-</record>
-<record>
-  <date>2020-06-28T22:55:44</date>
-  <millis>1593365144376</millis>
-  <sequence>1</sequence>
-  <logger>java.lang.String</logger>
-  <level>INFO</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
-  <thread>1</thread>
-  <message>AllocateParkingSlotExecuting readInputCommands method </message>
-</record>
 </log>
 <?xml version="1.0" encoding="windows-1252" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514354</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096136</millis>
   <sequence>0</sequence>
   <logger>java.lang.String</logger>
   <level>INFO</level>
@@ -39,8 +17,8 @@
   <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514404</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096190</millis>
   <sequence>1</sequence>
   <logger>java.lang.String</logger>
   <level>INFO</level>
@@ -50,108 +28,207 @@
   <message>AllocateParkingSlotExecuting readInputCommands method </message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514503</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096195</millis>
   <sequence>2</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>createSlots</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting createSlots method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514504</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096200</millis>
   <sequence>3</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting checkSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514507</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096302</millis>
   <sequence>4</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting updateSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514509</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096305</millis>
   <sequence>5</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting checkSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514510</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096306</millis>
   <sequence>6</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting updateSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514512</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096308</millis>
   <sequence>7</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting checkSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514515</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096310</millis>
   <sequence>8</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting updateSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514517</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096312</millis>
   <sequence>9</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting checkSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514519</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096313</millis>
   <sequence>10</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting updateSlotStatus method</message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514520</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096314</millis>
   <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096316</millis>
+  <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096317</millis>
+  <sequence>13</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096319</millis>
+  <sequence>14</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096322</millis>
+  <sequence>15</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096325</millis>
+  <sequence>16</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>printSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting printSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096327</millis>
+  <sequence>17</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096329</millis>
+  <sequence>18</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096331</millis>
+  <sequence>19</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096337</millis>
+  <sequence>20</sequence>
   <logger>java.lang.String</logger>
   <level>SEVERE</level>
   <class>com.coditas.Business.AllocateParkingSlot</class>
@@ -160,9 +237,541 @@
   <message>Sorry, parking lot is full </message>
 </record>
 <record>
-  <date>2020-06-28T23:01:54</date>
-  <millis>1593365514522</millis>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096346</millis>
+  <sequence>21</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096348</millis>
+  <sequence>22</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096351</millis>
+  <sequence>23</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096356</millis>
+  <sequence>24</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096358</millis>
+  <sequence>25</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096360</millis>
+  <sequence>26</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096363</millis>
+  <sequence>27</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096364</millis>
+  <sequence>28</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096366</millis>
+  <sequence>29</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:44:56</date>
+  <millis>1593368096367</millis>
+  <sequence>30</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>printSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting printSlotStatus method</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343441</millis>
+  <sequence>0</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343502</millis>
+  <sequence>1</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>AllocateParkingSlotExecuting readInputCommands method </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343532</millis>
+  <sequence>2</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>createSlots</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting createSlots method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343546</millis>
+  <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343636</millis>
+  <sequence>4</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343644</millis>
+  <sequence>5</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343646</millis>
+  <sequence>6</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343647</millis>
+  <sequence>7</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343648</millis>
+  <sequence>8</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343650</millis>
+  <sequence>9</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343651</millis>
+  <sequence>10</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343652</millis>
+  <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343654</millis>
   <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343655</millis>
+  <sequence>13</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343657</millis>
+  <sequence>14</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343660</millis>
+  <sequence>15</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343663</millis>
+  <sequence>16</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>printSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting printSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343665</millis>
+  <sequence>17</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343667</millis>
+  <sequence>18</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343669</millis>
+  <sequence>19</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343673</millis>
+  <sequence>20</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343679</millis>
+  <sequence>21</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343680</millis>
+  <sequence>22</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343682</millis>
+  <sequence>23</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343683</millis>
+  <sequence>24</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343684</millis>
+  <sequence>25</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343686</millis>
+  <sequence>26</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343687</millis>
+  <sequence>27</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343688</millis>
+  <sequence>28</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343690</millis>
+  <sequence>29</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343691</millis>
+  <sequence>30</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>printSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting printSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343693</millis>
+  <sequence>31</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343694</millis>
+  <sequence>32</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343696</millis>
+  <sequence>33</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343697</millis>
+  <sequence>34</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343698</millis>
+  <sequence>35</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343699</millis>
+  <sequence>36</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343700</millis>
+  <sequence>37</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:03</date>
+  <millis>1593368343702</millis>
+  <sequence>38</sequence>
   <logger>java.lang.String</logger>
   <level>SEVERE</level>
   <class>com.coditas.Business.AllocateParkingSlot</class>
@@ -175,8 +784,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2020-06-28T23:02:39</date>
-  <millis>1593365559346</millis>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383096</millis>
   <sequence>0</sequence>
   <logger>java.lang.String</logger>
   <level>INFO</level>
@@ -186,8 +795,8 @@
   <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
 </record>
 <record>
-  <date>2020-06-28T23:02:41</date>
-  <millis>1593365561952</millis>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383151</millis>
   <sequence>1</sequence>
   <logger>java.lang.String</logger>
   <level>INFO</level>
@@ -196,12 +805,398 @@
   <thread>1</thread>
   <message>AllocateParkingSlotExecuting readInputCommands method </message>
 </record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383156</millis>
+  <sequence>2</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>createSlots</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting createSlots method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383178</millis>
+  <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383272</millis>
+  <sequence>4</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383277</millis>
+  <sequence>5</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383279</millis>
+  <sequence>6</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383281</millis>
+  <sequence>7</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383282</millis>
+  <sequence>8</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383284</millis>
+  <sequence>9</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383285</millis>
+  <sequence>10</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383286</millis>
+  <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383288</millis>
+  <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383290</millis>
+  <sequence>13</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383292</millis>
+  <sequence>14</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383295</millis>
+  <sequence>15</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383299</millis>
+  <sequence>16</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>printSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting printSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383300</millis>
+  <sequence>17</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383302</millis>
+  <sequence>18</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383303</millis>
+  <sequence>19</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383308</millis>
+  <sequence>20</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383315</millis>
+  <sequence>21</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383318</millis>
+  <sequence>22</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383320</millis>
+  <sequence>23</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383323</millis>
+  <sequence>24</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383326</millis>
+  <sequence>25</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383330</millis>
+  <sequence>26</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383332</millis>
+  <sequence>27</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383333</millis>
+  <sequence>28</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383338</millis>
+  <sequence>29</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383340</millis>
+  <sequence>30</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>printSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting printSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383343</millis>
+  <sequence>31</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383344</millis>
+  <sequence>32</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383346</millis>
+  <sequence>33</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>Sorry, parking lot is full </message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383351</millis>
+  <sequence>34</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383356</millis>
+  <sequence>35</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:49:43</date>
+  <millis>1593368383357</millis>
+  <sequence>36</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+</log>
 <?xml version="1.0" encoding="windows-1252" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2020-06-28T23:04:18</date>
-  <millis>1593365658793</millis>
+  <date>2020-06-28T23:57:22</date>
+  <millis>1593368842936</millis>
   <sequence>0</sequence>
   <logger>java.lang.String</logger>
   <level>INFO</level>
@@ -211,8 +1206,8 @@
   <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
 </record>
 <record>
-  <date>2020-06-28T23:04:18</date>
-  <millis>1593365658845</millis>
+  <date>2020-06-28T23:57:22</date>
+  <millis>1593368842990</millis>
   <sequence>1</sequence>
   <logger>java.lang.String</logger>
   <level>INFO</level>
@@ -222,25 +1217,741 @@
   <message>AllocateParkingSlotExecuting readInputCommands method </message>
 </record>
 <record>
-  <date>2020-06-28T23:04:18</date>
-  <millis>1593365658948</millis>
+  <date>2020-06-28T23:57:22</date>
+  <millis>1593368842995</millis>
   <sequence>2</sequence>
   <logger>java.lang.String</logger>
-  <level>SEVERE</level>
-  <class>com.coditas.Business.AllocateParkingSlot</class>
-  <method>readInputCommands</method>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>createSlots</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>CarParkingExecuting createSlots method</message>
 </record>
 <record>
-  <date>2020-06-28T23:04:18</date>
-  <millis>1593365658951</millis>
+  <date>2020-06-28T23:57:22</date>
+  <millis>1593368842999</millis>
   <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843113</millis>
+  <sequence>4</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843116</millis>
+  <sequence>5</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843117</millis>
+  <sequence>6</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843119</millis>
+  <sequence>7</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843121</millis>
+  <sequence>8</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843122</millis>
+  <sequence>9</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843124</millis>
+  <sequence>10</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843125</millis>
+  <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843126</millis>
+  <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843128</millis>
+  <sequence>13</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843129</millis>
+  <sequence>14</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843132</millis>
+  <sequence>15</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:57:23</date>
+  <millis>1593368843134</millis>
+  <sequence>16</sequence>
   <logger>java.lang.String</logger>
   <level>SEVERE</level>
   <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>IOException Invalid Car Registration number provided !!! </message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905222</millis>
+  <sequence>0</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905296</millis>
+  <sequence>1</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
   <method>readInputCommands</method>
   <thread>1</thread>
-  <message>Sorry, parking lot is full </message>
+  <message>AllocateParkingSlotExecuting readInputCommands method </message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905306</millis>
+  <sequence>2</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>createSlots</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting createSlots method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905311</millis>
+  <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905450</millis>
+  <sequence>4</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905453</millis>
+  <sequence>5</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905455</millis>
+  <sequence>6</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905457</millis>
+  <sequence>7</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905459</millis>
+  <sequence>8</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905461</millis>
+  <sequence>9</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905463</millis>
+  <sequence>10</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905465</millis>
+  <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905467</millis>
+  <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905468</millis>
+  <sequence>13</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905470</millis>
+  <sequence>14</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905472</millis>
+  <sequence>15</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:25</date>
+  <millis>1593368905475</millis>
+  <sequence>16</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>IOException Invalid Car Registration number provided !!! </message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907670</millis>
+  <sequence>0</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907735</millis>
+  <sequence>1</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>AllocateParkingSlotExecuting readInputCommands method </message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907741</millis>
+  <sequence>2</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>createSlots</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting createSlots method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907745</millis>
+  <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907860</millis>
+  <sequence>4</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907863</millis>
+  <sequence>5</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907865</millis>
+  <sequence>6</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907867</millis>
+  <sequence>7</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907868</millis>
+  <sequence>8</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907870</millis>
+  <sequence>9</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907872</millis>
+  <sequence>10</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907874</millis>
+  <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907876</millis>
+  <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907878</millis>
+  <sequence>13</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907880</millis>
+  <sequence>14</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907884</millis>
+  <sequence>15</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:27</date>
+  <millis>1593368907886</millis>
+  <sequence>16</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>IOException Invalid Car Registration number provided !!! </message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912814</millis>
+  <sequence>0</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>STARTING EXECUTION OF :: AllocateParkingSlot</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912868</millis>
+  <sequence>1</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>readInputCommands</method>
+  <thread>1</thread>
+  <message>AllocateParkingSlotExecuting readInputCommands method </message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912875</millis>
+  <sequence>2</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>createSlots</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting createSlots method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912879</millis>
+  <sequence>3</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912982</millis>
+  <sequence>4</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912985</millis>
+  <sequence>5</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912986</millis>
+  <sequence>6</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912988</millis>
+  <sequence>7</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912989</millis>
+  <sequence>8</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912991</millis>
+  <sequence>9</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912993</millis>
+  <sequence>10</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912994</millis>
+  <sequence>11</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912996</millis>
+  <sequence>12</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912997</millis>
+  <sequence>13</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>checkSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting checkSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:32</date>
+  <millis>1593368912998</millis>
+  <sequence>14</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>updateSlotStatus</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting updateSlotStatus method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:33</date>
+  <millis>1593368913002</millis>
+  <sequence>15</sequence>
+  <logger>java.lang.String</logger>
+  <level>INFO</level>
+  <class>com.coditas.Business.CarParking</class>
+  <method>vacantSlot</method>
+  <thread>1</thread>
+  <message>CarParkingExecuting vacantSlot method</message>
+</record>
+<record>
+  <date>2020-06-28T23:58:33</date>
+  <millis>1593368913002</millis>
+  <sequence>16</sequence>
+  <logger>java.lang.String</logger>
+  <level>SEVERE</level>
+  <class>com.coditas.Business.AllocateParkingSlot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>IOException Invalid Car Registration number provided !!! </message>
 </record>
 </log>

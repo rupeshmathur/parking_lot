@@ -9,6 +9,7 @@ import com.coditas.POJO.ParkingStatus;
 import com.coditas.POJO.ParkingStatusBuilder;
 import com.coditas.POJO.VehicalSpecsDTO;
 import com.coditas.constants.ParkingLotConstants;
+import com.coditas.customExceptions.InvalidCarUnparkException;
 import com.coditas.infra.PerformFunctionalities;
 
 public class CarParking implements PerformFunctionalities {
@@ -20,27 +21,36 @@ public class CarParking implements PerformFunctionalities {
 	 * @see com.coditas.infra.PerformFunctionalities#vacantSlot(java.util.Map, java.lang.String, java.lang.String, double)
 	 */
 	@Override
-	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots, String regNo, String status,double hours) {
+	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots, String regNo, String status,double hours) throws InvalidCarUnparkException {
 		AllocateParkingSlot.logger.info(CURRENT_CLASS_NAME + "Executing vacantSlot method" );
 		Iterator<Map.Entry<Integer, ParkingStatus>> iterator = availableSlots.entrySet().iterator();
 		double temp = 0.0;
-		while (iterator.hasNext()) {
-			Map.Entry<Integer, ParkingStatus> entry = iterator.next();
-			if (regNo.equalsIgnoreCase(entry.getValue().getVehicalSpecsDTO().getVehicalRegNo())) {
-				if(hours>ParkingLotConstants.MIN_HOURS_FOR_BASE_FARE)
+		
+		try {
+			while (iterator.hasNext()) {
+				Map.Entry<Integer, ParkingStatus> entry = iterator.next();
+				if (regNo.equalsIgnoreCase(entry.getValue().getVehicalSpecsDTO().getVehicalRegNo())) {
+					if(hours>ParkingLotConstants.MIN_HOURS_FOR_BASE_FARE)
+					{
+						temp = (hours-ParkingLotConstants.MIN_HOURS_FOR_BASE_FARE)*ParkingLotConstants.BASE_FARE + ParkingLotConstants.BASE_FARE;
+					}
+					else
+					{
+						temp = ParkingLotConstants.BASE_FARE;
+					}
+					entry.getValue().setParkedHours(temp);
+					entry.getValue().setStatus(status);
+					System.out.println("Registration number " + regNo + " with Slot Number " + entry.getKey()
+					+ " is free with Charge " + temp);
+				}else
 				{
-					temp = (hours-ParkingLotConstants.MIN_HOURS_FOR_BASE_FARE)*ParkingLotConstants.BASE_FARE + ParkingLotConstants.BASE_FARE;
+					throw new InvalidCarUnparkException("Invalid Car Registration number provided !!! ");
 				}
-				else
-				{
-					temp = ParkingLotConstants.BASE_FARE;
-				}
-				entry.getValue().setParkedHours(temp);
-				entry.getValue().setStatus(status);
-				System.out.println("Registration number " + regNo + " with Slot Number " + entry.getKey()
-				+ " is free with Charge " + temp);
-			}
 
+			}
+				
+		} catch (InvalidCarUnparkException e) {
+					throw e;
 		}
 	}
 
