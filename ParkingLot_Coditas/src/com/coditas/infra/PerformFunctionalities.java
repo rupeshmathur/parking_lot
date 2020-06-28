@@ -10,7 +10,7 @@ public interface PerformFunctionalities {
 	
 	public void createSlots(Map<Integer, ParkingStatus> availableSlots, int noOfSlots);
 
-	public void parkVehicle();
+//	public void parkVehicle();
 
 	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots,String regNo,String status,double hours);
 

@@ -13,11 +13,11 @@ import com.coditas.infra.PerformFunctionalities;
 
 public class CarParking implements PerformFunctionalities {
 
-	@Override
+	/*@Override
 	public void parkVehicle() {
 		// TODO Auto-generated method stub
 
-	}
+	}*/
 
 	@Override
 	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots, String regNo, String status,double hours) {

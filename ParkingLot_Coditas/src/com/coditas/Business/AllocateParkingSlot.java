@@ -25,25 +25,29 @@ public class AllocateParkingSlot {
 		try {
 			handler = new FileHandler("F:Workspace/ParkingLot_Coditas/src/log_files/ParkingLotLogs.txt", true);
 			logger = Logger.getLogger(CURRENT_CLASS_NAME.getClass().getName());
+			logger.addHandler(handler);
 			if (args.length > 0) {
-				logger.info("");
+				
 				File file = new File(args[0]);
+				logger.info("STARTING EXECUTION OF :: " + CURRENT_CLASS_NAME );
 				readInputCommands(file);
 			} else {
+				logger.severe("NO INPUT FILE RECEIVED AS COMMAND LINE ARGS" + args[0] );
 				System.out.println("No input file received");
 			}
 		} catch (SecurityException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.severe("SecurityException " + e.getMessage());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.severe("IOException " + e.getMessage());
 		}
 
 	}
 
-	public static void readInputCommands(File file) {
+	public static void readInputCommands(File file) throws IOException {
 
+		logger.info(CURRENT_CLASS_NAME + "Executing readInputCommands method " );
 		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 
 			String line = null;
@@ -92,10 +96,11 @@ public class AllocateParkingSlot {
 			}
 
 		} catch (FileNotFoundException e) {
-			
-			e.printStackTrace();
+			logger.severe("FileNotFoundException " + e.getMessage());
+			throw e;
 		} catch (IOException e) {
-			e.printStackTrace();
+			logger.severe("IOException " + e.getMessage());
+			throw e;
 		}
 
 	}
