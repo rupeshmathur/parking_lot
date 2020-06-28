@@ -16,7 +16,7 @@ import com.coditas.constants.ParkingLotConstants;
 
 public class AllocateParkingSlot {
 
-	static Map<Integer, ParkingStatus> slotsStatus = new HashMap<Integer, ParkingStatus>();
+	static Map<Integer, ParkingStatus> slotsStatus = new HashMap<>();
 	static Logger logger = null;
 	static FileHandler handler = null;
 	static String CURRENT_CLASS_NAME = "AllocateParkingSlot";
