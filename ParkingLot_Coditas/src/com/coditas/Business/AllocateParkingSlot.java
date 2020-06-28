@@ -17,13 +17,13 @@ import com.coditas.constants.ParkingLotConstants;
 public class AllocateParkingSlot {
 
 	static Map<Integer, ParkingStatus> slotsStatus = new HashMap<Integer, ParkingStatus>();
-	static Logger logger;
-	static FileHandler handler ;
+	static Logger logger = null;
+	static FileHandler handler = null;
 	static String CURRENT_CLASS_NAME = "AllocateParkingSlot";
 	public static void main(String[] args) {
 
 		try {
-			handler = new FileHandler("F:Workspace/ParkingLot_Coditas/src/log_files/ParkingLotLogs.txt", true);
+			handler = new FileHandler("C:/Users/user/git/parking_lot/ParkingLot_Coditas/src/log_files/ParkingLotLogs.txt", true);
 			logger = Logger.getLogger(CURRENT_CLASS_NAME.getClass().getName());
 			logger.addHandler(handler);
 			if (args.length > 0) {
