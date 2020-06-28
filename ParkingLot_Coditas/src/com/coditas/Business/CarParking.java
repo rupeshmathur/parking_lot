@@ -14,12 +14,6 @@ import com.coditas.infra.PerformFunctionalities;
 public class CarParking implements PerformFunctionalities {
 
 	static String CURRENT_CLASS_NAME = "CarParking";
-	/*@Override
-	public void parkVehicle() {
-		// TODO Auto-generated method stub
-
-	}*/
-
 	/*
 	 * If a car is unparked this method vacant the slot , calculate the parking fee
 	 * (non-Javadoc)

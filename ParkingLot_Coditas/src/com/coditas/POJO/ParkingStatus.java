@@ -8,7 +8,6 @@ public class ParkingStatus {
 
 	public ParkingStatus() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public ParkingStatus(String status, VehicalSpecsDTO vehicalSpecsDTO) {
@@ -42,7 +41,6 @@ public class ParkingStatus {
 	}
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return super.toString();
 	}
 

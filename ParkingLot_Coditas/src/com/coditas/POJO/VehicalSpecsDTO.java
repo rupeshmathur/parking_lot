@@ -9,7 +9,7 @@ public class VehicalSpecsDTO {
 
 	public VehicalSpecsDTO() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public VehicalSpecsDTO(String vehicalColor, String vehicalRegNo) {
@@ -37,7 +37,7 @@ public class VehicalSpecsDTO {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
+
 		return super.toString();
 	}
 

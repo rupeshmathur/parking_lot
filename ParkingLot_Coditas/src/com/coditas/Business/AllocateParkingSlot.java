@@ -20,6 +20,7 @@ public class AllocateParkingSlot {
 	static Logger logger = null;
 	static FileHandler handler = null;
 	static String CURRENT_CLASS_NAME = "AllocateParkingSlot";
+	
 	public static void main(String[] args) {
 
 		try {
