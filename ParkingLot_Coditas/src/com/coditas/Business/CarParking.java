@@ -25,8 +25,8 @@ public class CarParking implements PerformFunctionalities {
 		AllocateParkingSlot.logger.info(CURRENT_CLASS_NAME + "Executing vacantSlot method" );
 		Iterator<Map.Entry<Integer, ParkingStatus>> iterator = availableSlots.entrySet().iterator();
 		double temp = 0.0;
-		
-		try {
+		boolean invalidRegNo = true;
+		/*try {*/
 			while (iterator.hasNext()) {
 				Map.Entry<Integer, ParkingStatus> entry = iterator.next();
 				if (regNo.equalsIgnoreCase(entry.getValue().getVehicalSpecsDTO().getVehicalRegNo())) {
@@ -42,16 +42,16 @@ public class CarParking implements PerformFunctionalities {
 					entry.getValue().setStatus(status);
 					System.out.println("Registration number " + regNo + " with Slot Number " + entry.getKey()
 					+ " is free with Charge " + temp);
-				}else
-				{
-					throw new InvalidCarUnparkException("Invalid Car Registration number provided !!! ");
+					invalidRegNo = false;;
 				}
-
 			}
-				
-		} catch (InvalidCarUnparkException e) {
-					throw e;
-		}
+			/*	if(invalidRegNo)
+				{
+					throw new InvalidCarUnparkException("Invalid Car Registration number provided !!! " + regNo);
+				}
+		catch (InvalidCarUnparkException e) {
+			throw e;
+		}*/
 	}
 
 	/*
@@ -66,7 +66,11 @@ public class CarParking implements PerformFunctionalities {
 		System.out.println("Slot No. Registration No.");
 		while (iterator.hasNext()) {
 			Map.Entry<Integer, ParkingStatus> entry = iterator.next();
-			System.out.println(entry.getKey() + "        " + entry.getValue().getVehicalSpecsDTO().getVehicalRegNo());
+			if(entry.getValue().getStatus().equals(ParkingLotConstants.NOT_AVAILABE))
+			{
+				System.out.println(entry.getKey() + "        " + entry.getValue().getVehicalSpecsDTO().getVehicalRegNo());
+			}
+		
 
 		}
 	}
