@@ -21,12 +21,12 @@ public class CarParking implements PerformFunctionalities {
 	 * @see com.coditas.infra.PerformFunctionalities#vacantSlot(java.util.Map, java.lang.String, java.lang.String, double)
 	 */
 	@Override
-	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots, String regNo, String status,double hours) throws InvalidCarUnparkException {
+	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots, String regNo, String status,double hours)  {
 		AllocateParkingSlot.logger.info(CURRENT_CLASS_NAME + "Executing vacantSlot method" );
 		Iterator<Map.Entry<Integer, ParkingStatus>> iterator = availableSlots.entrySet().iterator();
 		double temp = 0.0;
 		boolean invalidRegNo = true;
-		/*try {*/
+		try {
 			while (iterator.hasNext()) {
 				Map.Entry<Integer, ParkingStatus> entry = iterator.next();
 				if (regNo.equalsIgnoreCase(entry.getValue().getVehicalSpecsDTO().getVehicalRegNo())) {
@@ -45,13 +45,15 @@ public class CarParking implements PerformFunctionalities {
 					invalidRegNo = false;;
 				}
 			}
-			/*	if(invalidRegNo)
+				if(invalidRegNo)
 				{
 					throw new InvalidCarUnparkException("Invalid Car Registration number provided !!! " + regNo);
 				}
+		}
 		catch (InvalidCarUnparkException e) {
-			throw e;
-		}*/
+			AllocateParkingSlot.logger.warning(CURRENT_CLASS_NAME + "Executing vacantSlot method" + e.getMessage());
+			System.out.println("Registration number " + regNo  +" not found");
+		}
 	}
 
 	/*
