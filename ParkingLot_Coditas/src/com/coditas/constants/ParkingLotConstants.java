@@ -9,4 +9,5 @@ public interface ParkingLotConstants {
 	static String LEAVE = "leave";
 	static String STATUS = "status";
 	static double BASE_FARE = 10.0;
+	static double MIN_HOURS_FOR_BASE_FARE = 2.0;
 }

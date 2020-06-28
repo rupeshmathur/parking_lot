@@ -43,6 +43,9 @@ public class AllocateParkingSlot {
 
 	}
 
+	/*
+	 * Reads the input file and processes as per commands given
+	 */
 	public static void readInputCommands(File file) throws IOException {
 
 		logger.info(CURRENT_CLASS_NAME + "Executing readInputCommands method " );
@@ -50,32 +53,26 @@ public class AllocateParkingSlot {
 
 			String line = null;
 			while ((line = br.readLine()) != null) {
-				String arr[] = line.split(" ");
-				if (arr.length == 1 && arr[0].equals(ParkingLotConstants.STATUS)) {
+				String commandArgs[] = line.split(" ");
+				if (commandArgs.length == 1 && commandArgs[0].equals(ParkingLotConstants.STATUS)) {
 
 					new CarParking().printSlotStatus(slotsStatus);
 
 				}
 				
-				if(arr.length == 2 && arr[0].equals(ParkingLotConstants.CREATE))
+				if(commandArgs.length == 2 && commandArgs[0].equals(ParkingLotConstants.CREATE))
 						{
-					new CarParking().createSlots(slotsStatus, Integer.parseInt(arr[1]));
+					new CarParking().createSlots(slotsStatus, Integer.parseInt(commandArgs[1]));
 						}
 				
-				if (arr.length == 3 && arr[0].equals(ParkingLotConstants.PARK)) {
-
-					// checkStatusOfSlots
-					// Add new Key value to the map with Slot No as key and
-					// value as DTO obj
-					// Mark Not Available in slotStatus map
-
+				if (commandArgs.length == 3 && commandArgs[0].equals(ParkingLotConstants.PARK)) {
 					OptionalInt opt = new CarParking().checkSlotStatus(slotsStatus).stream().mapToInt(ip -> ip).min();
 					if (opt.isPresent() && slotsStatus.containsKey(opt.getAsInt())) {
 
 						int slotNo = opt.getAsInt();
-						String vehicleRegNo = arr[1];
+						String vehicleRegNo = commandArgs[1];
 						new CarParking().updateSlotStatus(slotsStatus, slotNo, ParkingLotConstants.NOT_AVAILABE,
-								vehicleRegNo, arr[2]);
+								vehicleRegNo, commandArgs[2]);
 
 					} else {
 						logger.severe("Sorry, parking lot is full ");
@@ -85,10 +82,10 @@ public class AllocateParkingSlot {
 				}
 
 				
-				if (arr.length == 3 && arr[0].equals(ParkingLotConstants.LEAVE)) {
+				if (commandArgs.length == 3 && commandArgs[0].equals(ParkingLotConstants.LEAVE)) {
 
-					new CarParking().vacantSlot(slotsStatus, arr[1], ParkingLotConstants.AVAILABE,
-							Double.parseDouble(arr[2]));
+					new CarParking().vacantSlot(slotsStatus, commandArgs[1], ParkingLotConstants.AVAILABE,
+							Double.parseDouble(commandArgs[2]));
 
 				}
 
