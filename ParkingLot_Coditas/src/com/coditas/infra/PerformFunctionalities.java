@@ -13,7 +13,7 @@ public interface PerformFunctionalities {
 
 //	public void parkVehicle();
 
-	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots,String regNo,String status,double hours) throws InvalidCarUnparkException;
+	public void vacantSlot(Map<Integer, ParkingStatus> availableSlots,String regNo,String status,double hours);
 
 	public void printSlotStatus(Map<Integer, ParkingStatus> availableSlots);
 
