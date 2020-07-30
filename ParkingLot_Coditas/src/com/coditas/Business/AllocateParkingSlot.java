@@ -12,26 +12,29 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
 import com.coditas.POJO.ParkingStatus;
+import com.coditas.Utilities.ParkingLotUtils;
 import com.coditas.constants.ParkingLotConstants;
 
 public class AllocateParkingSlot {
 
 	static Map<Integer, ParkingStatus> slotsStatus = new HashMap<>();
-	static Logger logger = null;
+	public static Logger logger = null;
 	static FileHandler handler = null;
 	static String CURRENT_CLASS_NAME = "AllocateParkingSlot";
 
 	public static void main(String[] args) {
 
 		try {
-			handler = new FileHandler(
-					"C:/Users/user/git/parking_lot/ParkingLot_Coditas/src/log_files/ParkingLotLogs.txt", true);
+
+			handler = new FileHandler("C:/Users/user/git/parking_lot/ParkingLot_Coditas/src/log_files/ParkingLotLogs_"
+					+ System.currentTimeMillis() + ".txt", true);
 			logger = Logger.getLogger(CURRENT_CLASS_NAME.getClass().getName());
 			logger.addHandler(handler);
 			if (args.length > 0) {
 
 				File file = new File(args[0]);
 				logger.info("STARTING EXECUTION OF :: " + CURRENT_CLASS_NAME);
+
 				readInputCommands(file);
 			} else {
 				logger.severe("NO INPUT FILE RECEIVED AS COMMAND LINE ARGS" + args[0]);
@@ -57,19 +60,21 @@ public class AllocateParkingSlot {
 		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 
 			String line = null;
+			Map<String, String> commandProperties = new ParkingLotUtils().fetchInstance();
 			while ((line = br.readLine()) != null) {
 				String commandArgs[] = line.split(" ");
-				if (commandArgs.length == 1 && commandArgs[0].equals(ParkingLotConstants.STATUS)) {
+
+				if (commandArgs[0].equals(commandProperties.get(ParkingLotConstants.STATUS))) {
 
 					new CarParking().printSlotStatus(slotsStatus);
 
 				}
 
-				if (commandArgs.length == 2 && commandArgs[0].equals(ParkingLotConstants.CREATE)) {
+				if (commandArgs[0].equals(commandProperties.get(ParkingLotConstants.CREATE))) {
 					new CarParking().createSlots(slotsStatus, Integer.parseInt(commandArgs[1]));
 				}
 
-				if (commandArgs.length == 3 && commandArgs[0].equals(ParkingLotConstants.PARK)) {
+				if (commandArgs[0].equals(commandProperties.get(ParkingLotConstants.PARK))) {
 					OptionalInt opt = new CarParking().checkSlotStatus(slotsStatus).stream().mapToInt(ip -> ip).min();
 					if (opt.isPresent() && slotsStatus.containsKey(opt.getAsInt())) {
 
@@ -85,7 +90,7 @@ public class AllocateParkingSlot {
 
 				}
 
-				if (commandArgs.length == 3 && commandArgs[0].equals(ParkingLotConstants.LEAVE)) {
+				if (commandArgs[0].equals(commandProperties.get(ParkingLotConstants.LEAVE))) {
 
 					new CarParking().vacantSlot(slotsStatus, commandArgs[1], ParkingLotConstants.AVAILABE,
 							Double.parseDouble(commandArgs[2]));
